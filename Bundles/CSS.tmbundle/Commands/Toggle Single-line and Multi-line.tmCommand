@@ -13,7 +13,11 @@
         <key>command</key>
         <string>#!/usr/bin/env ruby
 
-tab = " " * ENV['TM_TAB_SIZE'].to_i
+if ENV['TM_SOFT_TABS'] == 'NO'
+  tab = "\t"
+else
+  tab = " " * ENV['TM_TAB_SIZE'].to_i
+end
 
 print case str = STDIN.read
   
@@ -27,8 +31,8 @@ print case str = STDIN.read
   
   # Default case
   else str
+    
 end
-
 </string>
         <key>fallbackInput</key>
         <string>scope</string>
