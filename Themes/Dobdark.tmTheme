@@ -10,25 +10,25 @@
                 <key>settings</key>
                 <dict>
                     <key>background</key>
-                    <string>#414141</string>
+                    <string>#2D2D2D</string>
                     <key>caret</key>
                     <string>#A5A5A5</string>
                     <key>foreground</key>
-                    <string>#F8F8F8</string>
+                    <string>#D7D7D7</string>
                     <key>invisibles</key>
-                    <string>#FFFFFF40</string>
+                    <string>#62626282</string>
                     <key>lineHighlight</key>
                     <string>#00000031</string>
                     <key>selection</key>
-                    <string>#DDF0FF33</string>
+                    <string>#FF000046</string>
                     <key>gutter</key>
-                    <string>#282828</string>
+                    <string>#000000</string>
                     <key>searchHighlight</key>
-                    <string>#116C04</string>
+                    <string>#00000082</string>
                     <key>multiEditHighlight</key>
                     <string>#000000</string>
                     <key>bracketHighlight</key>
-                    <string>#008000</string>
+                    <string>#296D1B82</string>
                 </dict>
             </dict>
             <dict>
@@ -46,7 +46,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>Source.PHP</string>
+                <string>Source.PHP </string>
                 <key>settings</key>
                 <dict>
                     <key>background</key>
@@ -101,7 +101,7 @@
                     <string>#BEBEBE</string>
                 </dict>
                 <key>scope</key>
-                <string>keyword.operator, punctuation.separator</string>
+                <string>keyword.operator, punctuation.separator, puctuation</string>
             </dict>
             <dict>
                 <key>name</key>
@@ -174,7 +174,7 @@
                 <key>settings</key>
                 <dict>
                     <key>background</key>
-                    <string>#562D56BF</string>
+                    <string>#D20000BF</string>
                     <key>foreground</key>
                     <string>#F8F8F8</string>
                 </dict>
@@ -364,7 +364,7 @@
                 <key>name</key>
                 <string>§ css tag-name</string>
                 <key>scope</key>
-                <string>meta.selector.css entity.name.tag</string>
+                <string>meta.selector.css entity.name.tag, entity.name.tag.haml</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -397,7 +397,7 @@
                 <key>name</key>
                 <string>§ css#id</string>
                 <key>scope</key>
-                <string>meta.selector.css entity.other.attribute-name.id</string>
+                <string>meta.selector.css entity.other.attribute-name.id, entity.name.tag.id.haml</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -419,7 +419,7 @@
                 <key>name</key>
                 <string>§ css.class</string>
                 <key>scope</key>
-                <string>meta.selector.css entity.other.attribute-name.class, entity.other.attribute-name.pseudo-class.css</string>
+                <string>meta.selector.css entity.other.attribute-name.class, entity.other.attribute-name.pseudo-class.css, entity.name.tag.class.haml</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -539,7 +539,7 @@
                 <key>name</key>
                 <string>Markup: List</string>
                 <key>scope</key>
-                <string>markup.list</string>
+                <string>markup.list, markup.underline.link</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -556,6 +556,65 @@
                     <key>foreground</key>
                     <string>#CF6A4C</string>
                 </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Markup: italic</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>italic</string>
+                    <key>foreground</key>
+                    <string>#FFFF75</string>
+                </dict>
+                <key>scope</key>
+                <string>markup.italic</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Textile: link</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#008C23</string>
+                </dict>
+                <key>scope</key>
+                <string>meta.link.inline.textile</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Textile: type</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#6992CC</string>
+                </dict>
+                <key>scope</key>
+                <string>entity.name.type.textile</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Markup: bold</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                    <key>foreground</key>
+                    <string>#FFFF75</string>
+                </dict>
+                <key>scope</key>
+                <string>markup.bold</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Markup: raw (code)</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#373737</string>
+                </dict>
+                <key>scope</key>
+                <string>markup.raw</string>
             </dict>
         </array>
         <key>uuid</key>

@@ -23,6 +23,8 @@
                     <string>#80404038</string>
                     <key>selection</key>
                     <string>#FF000087</string>
+                    <key>gutter</key>
+                    <string>#D4D4D4</string>
                 </dict>
             </dict>
             <dict>
