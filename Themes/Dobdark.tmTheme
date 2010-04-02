@@ -16,7 +16,7 @@
                     <key>foreground</key>
                     <string>#D7D7D7</string>
                     <key>invisibles</key>
-                    <string>#62626282</string>
+                    <string>#15151582</string>
                     <key>lineHighlight</key>
                     <string>#00000031</string>
                     <key>selection</key>
@@ -89,7 +89,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#FB9933</string>
+                    <string>#FB8713</string>
                 </dict>
             </dict>
             <dict>
@@ -150,7 +150,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#6992D6</string>
+                    <string>#5886D1</string>
                 </dict>
             </dict>
             <dict>
@@ -344,7 +344,7 @@
                     <key>foreground</key>
                     <string>#FFFFFF</string>
                     <key>background</key>
-                    <string>#414141</string>
+                    <string>#232323</string>
                 </dict>
                 <key>scope</key>
                 <string>entity.name.function, entity.name.type.class</string>
@@ -401,7 +401,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#6992D6</string>
+                    <string>#FDDA71</string>
                 </dict>
             </dict>
             <dict>
@@ -615,6 +615,17 @@
                 </dict>
                 <key>scope</key>
                 <string>markup.raw</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>$sass.misc</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#9F9F9F</string>
+                </dict>
+                <key>scope</key>
+                <string>source.sass, meta.variable-usage.sass, meta.variable-declaration.sass</string>
             </dict>
         </array>
         <key>uuid</key>
